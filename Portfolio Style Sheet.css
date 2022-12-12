@@ -32,7 +32,7 @@
 	left: 475px;
 	top: 0px;
 	width: 100%;
-  	height: 100%;
+  	height: 1080px;
 	background-color: #EB4644;
 }
 
@@ -41,7 +41,7 @@
 	left: 0px;
   	top: 0px;
 	width: 475px;
-  	height: 100%;
+  	height: 1080px;
 	background-color: #00629D;
 }
 
@@ -50,7 +50,7 @@
 	left: 505px;
 	top: 0px;
 	width: 100%;
-  	height: 97%;
+  	height: 1050px;
 	background-color: white;
 	border-radius: 0px 0px 0px 60px;
 }

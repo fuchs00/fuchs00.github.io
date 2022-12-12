@@ -1,0 +1,547 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Common */
+.button-home {
+	position: absolute;
+	left: 0px;
+  	top: 45px;
+	width: 300px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+	box-shadow: 0px 5px 5px 0px #00000030;
+}
+
+.button-text {
+	font-family: Candara;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	position: absolute;
+	left: 0px;
+  	top: 20px;
+	width: 260px;
+  	height: 0px;
+}
+
+.main-outline {
+	position: absolute;
+	left: 475px;
+	top: 0px;
+	width: 100%;
+  	height: 100%;
+	background-color: #EB4644;
+}
+
+.sidebar-background {
+	position: absolute;
+	left: 0px;
+  	top: 0px;
+	width: 475px;
+  	height: 100%;
+	background-color: #00629D;
+}
+
+.main-inside {
+	position: absolute;
+	left: 505px;
+	top: 0px;
+	width: 100%;
+  	height: 97%;
+	background-color: white;
+	border-radius: 0px 0px 0px 60px;
+}
+
+.sidebar-text-head {
+	font-family: Candara;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+	position: absolute;
+	left: 50px;
+  	top: 170px;
+	width: 370px;
+  	height: 0px;
+}
+
+.sidebar-text-description {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+	text-align: left;
+	position: absolute;
+	left: 50px;
+  	top: 225px;
+	width: 370px;
+  	height: 0px;
+}
+
+/* Home Page */
+.home-button-jade {
+	position: absolute;
+	left: 475px;
+  	top: 45px;
+	width: 300px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+	box-shadow: 0px 5px 5px 0px #00000030;
+	text-shadow: 0px 5px 5px 0px #00000030;
+}
+
+.home-button-rooted {
+	position: absolute;
+	left: 475px;
+  	top: 345px;
+	width: 300px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+	box-shadow: 0px 5px 5px 0px #00000030;
+	text-shadow: 0px 5px 5px 0px #00000030;
+}
+
+.home-button-yoga {
+	position: absolute;
+	left: 475px;
+  	top: 645px;
+	width: 300px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+	box-shadow: 0px 5px 5px 0px #00000030;
+	text-shadow: 0px 5px 5px 0px #00000030;
+}
+
+.email-icon {
+	position: absolute;
+	left: 50px;
+  	top: 375px;
+}
+
+.linkedin-icon {
+	position: absolute;
+	left: 52px;
+  	top: 415px;
+}
+
+.sidebar-text-email {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+	text-align: left;
+	position: absolute;
+	left: 95px;
+  	top: 370px;
+	width: 370px;
+  	height: 0px;
+}
+
+.sidebar-text-linkedin {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+	text-align: left;
+	position: absolute;
+	left: 95px;
+  	top: 410px;
+	width: 370px;
+  	height: 0px;
+}
+
+.home-jade-logo {
+	position: absolute;
+	left: 525px;
+  	top: 125px;
+	width: 265px;
+  	height: 205px;
+}
+
+.home-jade-description {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	position: absolute;
+	left: 790px;
+  	top: 175px;
+	width: 880px;
+  	height: 0px;
+}
+
+.home-rooted-logo {
+	position: absolute;
+	left: 580px;
+  	top: 430px;
+	width: 160px;
+  	height: 205px;
+}
+
+.home-rooted-description {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	position: absolute;
+	left: 790px;
+  	top: 485px;
+	width: 880px;
+  	height: 0px;
+}
+
+.home-yoga-logo {
+	position: absolute;
+	left: 525px;
+  	top: 730px;
+	width: 240px;
+  	height: 125px;
+}
+
+.home-yoga-description {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	position: absolute;
+	left: 790px;
+  	top: 765px;
+	width: 880px;
+  	height: 0px;
+}
+
+/* Jade Design */
+.jade-logo-header {
+	position: absolute;
+	left: 475px;
+  	top: 45px;
+	width: 300px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+}
+
+.jade-logo-header-text {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	position: absolute;
+	left: 0px;
+  	top: 23px;
+	width: 270px;
+  	height: 0px;
+}
+
+.jade-page-logo {
+	position: absolute;
+	left: 510px;
+  	top: 125px;
+	width: 373px;
+  	height: 288px;
+}
+
+.jade-style1 {
+	position: absolute;
+	left: 820px;
+  	top: 80px;
+	width: 250px;
+  	height: 330px;
+}
+
+.jade-style2 {
+	position: absolute;
+	left: 1075px;
+  	top: 80px;
+	width: 250px;
+  	height: 330px;
+}
+
+.jade-style3 {
+	position: absolute;
+	left: 1330px;
+  	top: 80px;
+	width: 250px;
+  	height: 330px;
+}
+
+.jade-style4 {
+	position: absolute;
+	left: 1585px;
+  	top: 80px;
+	width: 250px;
+  	height: 330px;
+}
+
+.jade-letter-header {
+	position: absolute;
+	left: 475px;
+  	top: 500px;
+	width: 345px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+}
+
+.jade-letter-header-text {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	position: absolute;
+	left: 0px;
+  	top: 23px;
+	width: 315px;
+  	height: 0px;
+}
+
+.jade-envelope {
+	position: absolute;
+	left: 580px;
+  	top: 676px;
+	width: 432px;
+	height: 186px;
+}
+
+.jade-letterhead {
+	position: absolute;
+	left: 1025px;
+  	top: 525px;
+	width: 260px;
+	height: 338px;
+}
+
+.jade-info {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	text-align: left;
+	position: absolute;
+	left: 1330px;
+  	top: 600px;
+	width: 515px;
+  	height: 215px;
+}
+
+/* Rooted Systems */
+.rooted-sketch-header {
+	position: absolute;
+	left: 475px;
+  	top: 45px;
+	width: 270px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+}
+
+.rooted-sketch-header-text {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	position: absolute;
+	left: 0px;
+  	top: 23px;
+	width: 235px;
+  	height: 0px;
+}
+
+.rooted-sketch1 {
+	position: absolute;
+	left: 550px;
+  	top: 145px;
+	width: 468px;
+  	height: 268px;
+}
+
+.rooted-sketch2 {
+	position: absolute;
+	left: 1053px;
+  	top: 145px;
+	width: 468px;
+  	height: 268px;
+}
+
+.rooted-logo-header {
+	position: absolute;
+	left: 475px;
+  	top: 500px;
+	width: 340px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+}
+
+.rooted-logo-header-text {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	position: absolute;
+	left: 0px;
+  	top: 23px;
+	width: 310px;
+  	height: 0px;
+}
+
+.rooted-logo {
+	position: absolute;
+	left: 560px;
+  	top: 580px;
+	width: 247px;
+  	height: 320px;
+}
+
+.rooted-card {
+	position: absolute;
+	left: 860px;
+  	top: 610px;
+	width: 407px;
+  	height: 228px;
+}
+
+.rooted-info {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	text-align: left;
+	position: absolute;
+	left: 1310px;
+  	top: 640px;
+	width: 515px;
+  	height: 215px;
+}
+
+/*Hot Yoga MKE */
+.yoga-sketch-header {
+	position: absolute;
+	left: 475px;
+  	top: 45px;
+	width: 330px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+}
+
+.yoga-sketch-header-text {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	position: absolute;
+	left: 0px;
+  	top: 23px;
+	width: 300px;
+  	height: 0px;
+}
+.yoga-sketch1 {
+	position: absolute;
+	left: 550px;
+  	top: 145px;
+	width: 360px;
+  	height: 265px;
+}
+
+.yoga-sketch2 {
+	position: absolute;
+	left: 945px;
+  	top: 49px;
+	width: 265px;
+  	height: 360px;
+}
+
+.yoga-poster-header {
+	position: absolute;
+	left: 475px;
+  	top: 500px;
+	width: 300px;
+  	height: 80px;
+	background-color: #60C9F0;
+	border-radius: 0px 90px 90px 0px;
+}
+
+.yoga-poster-header-text {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	position: absolute;
+	left: 0px;
+  	top: 23px;
+	width: 270px;
+  	height: 0px;
+}
+
+.yoga-poster {
+	position: absolute;
+	left: 1270px;
+  	top: 500px;
+	width: 497px;
+  	height: 365px;
+}
+
+.yoga-info {
+	font-family: Candara;
+	font-size: 25px;
+	font-style: normal;
+	text-align: left;
+	position: absolute;
+	left: 550px;
+  	top: 620px;
+	width: 700px;
+  	height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

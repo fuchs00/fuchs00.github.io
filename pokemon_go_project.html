@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alex Fuchs">
+    <title>Alex Fuchs Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" 
+        rel="stylesheet"
+    />
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_projects.css">
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="container">
+            <!--Brand Navbar Logo-->
+            <div class="logo-initials">
+                <a href="index.html">
+                    <img src="images/Name Logo Initials.png" alt="Initials Logo">
+                </a>
+            </div>
+            <!--Navbar Menu-->
+            <div class="nav-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Project Walkthrough-->
+    <div class="project-walkthrough">
+        <div class="container-sm">
+            <h1>Pokémon GO Design System</h1>
+            <!--Description-->
+            <div class="project-description">
+                <div class="text-par">
+                    <p>
+                        As part of our Design Systems class capstone project, our entire class worked as a team to undertake the challenge 
+                        of enhancing the user experience of Pokémon GO, a popular augmented reality mobile game. This project required us 
+                        to leverage our skills in communication design, information architecture, visual design, and interface design to 
+                        develop a cohesive design system for the game. The project duration spanned an entire semester, and I collaborated 
+                        with a dynamic design team consisting of four members.
+                    </p>
+                </div>
+                <div class="text-par">
+                    <p>
+                        Our design team’s primary tasks involved contributing to the aesthetic elements of our design system for Pokémon GO 
+                        and developing two pivotal features aimed at improving user connectivity and gameplay dynamics. To accomplish this, 
+                        we utilized skills in communication design, information architecture, visual design, and interface design, along with 
+                        tools such as Adobe XD and Figma for prototyping. The goal was to enhance the overall user experience of the game while 
+                        maintaining its core identity and gameplay mechanics.
+                    </p>
+                </div>
+                <div class="text-par">
+                    List of tasks I was responsible for completing:
+                </div>
+                <div class="text-bullets">
+                    <ul>
+                        <li>
+                            Collaborated with team members to analyze the existing user experience of Pokémon GO and identify areas for improvement.
+                        </li>
+                        <li>
+                            Utilized communication design principles to establish a cohesive visual language and design patterns for the game's 
+                            interface elements.
+                        </li>
+                        <li>
+                            Created user personas and journey maps to provide a shared understanding for the target users expectations and 
+                            understanding of the game
+                        </li>
+                        <li>
+                            Contributed to the development of an information architecture framework to organize game content and features in a logical 
+                            and intuitive manner.
+                        </li>
+                        <li>
+                            Designed and prototyped a streamlined friend-finding mechanism using Adobe XD, aimed at improving user connectivity and 
+                            social interactions within the game.
+                        </li>
+                        <li>
+                            Iteratively tested the prototypes with potential users to gather feedback and refine the designs for optimal usability 
+                            and effectiveness.
+                        </li>
+                        <li>
+                            Compiled the results of our efforts into a comprehensive presentation and demonstration, showcasing the project's process, 
+                            outcomes, and the rationale behind design decisions.
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-par">
+                    <p>
+                        The Pokémon GO Design System project yielded several positive outcomes:
+                    </p>
+                </div>
+                <div class="text-bullets">
+                    <ul>
+                        <li>
+                            The creation of a cohesive design system provided a unified visual identity and consistent user experience across 
+                            different aspects of the game.
+                        </li>
+                        <li>
+                            The development of the friend-finding mechanism and battle interface features contributed to improving user connectivity 
+                            and gameplay dynamics, enhancing the overall experience for players.
+                        </li>
+                        <li>
+                            The presentation and demonstration of our prototypes effectively communicated the project's process, outcomes, and the 
+                            value of design decisions to stakeholders and peers.
+                        </li>
+                        <li>
+                            Through this project, I gained valuable experience in design systems development, prototyping, user testing, and presentation skills.
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-par">
+                    <p>
+                        In summary, the Pokémon GO Design System project demonstrated the practical application of a design system utilizing principles 
+                        and methodologies in enhancing the user experience of a popular mobile game, while also providing valuable learning experiences 
+                        and skill development opportunities.
+                    </p>
+                </div>
+            </div>
+            <!--Image Lightbox-->
+            <div class="project-images">
+
+                <!--Images used to open lightbox-->
+                <div class="image-row">
+                    <div class="image-column">
+                        <img src="images/pokemon/Pokemon journey map.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </div>
+                    <div class="image-column">
+                        <img src="images/pokemon/Pokemon persona.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    </div>
+                    <div class="image-column">
+                        <img src="images/pokemon/Pokemon feature spread.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    </div>
+                </div>
+
+                <!--The lightbox-->
+                <div id="myModal" class="modal">
+                    <span class="close curser" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides">
+                            <div class="number-text">1 / 3</div>
+                            <img src="images/pokemon/Pokemon journey map.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="number-text">2 / 3</div>
+                            <img src="images/pokemon/Pokemon persona.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="number-text">3 / 3</div>
+                            <img src="images/pokemon/Pokemon feature spread.jpg" style="width:100%">
+                        </div>
+                        
+
+                        <!--Next/Previous controls-->
+                        <a class="prev" onclick="plusSlides(-1);">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1);">&#10095;</a>
+
+                        <!--Caption text-->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+
+                        <!--Thumbnail image controls-->
+                        <div class="column">
+                            <img src="images/pokemon/Pokemon journey map.jpg" alt="Example User Journey Map" class="demo" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img src="images/pokemon/Pokemon persona.jpg" alt="Example User Persona" class="demo" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img src="images/pokemon/Pokemon feature spread.jpg" alt="Pokémon GO Find-A-Friend Prototype" class="demo" onclick="currentSlide(3)">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!--Page Borders-->
+    <div class="left-border"></div>
+    <div class="right-border"></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

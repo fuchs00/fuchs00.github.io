@@ -38,6 +38,11 @@
     color: var(--dark-blue);
 }
 
-.about .about-me .links .icon-links {
-    padding: 20px 0;
+.about .about-me .links .icon-links ul {
+    display: flex;
+}
+
+.about .about-me .links .icon-links ul li a{
+    padding: 20px 2vw 20px 0;
+    display: block;
 }

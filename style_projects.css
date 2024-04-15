@@ -1,0 +1,22 @@
+/* Projects */
+.projects {
+    background: #fff;
+    padding: 0;
+}
+
+.projects .container-sm {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+}
+
+.projects .container-sm a img {
+    width: 20vw;
+    height: auto;
+    padding: 0 1vw;
+}
+
+.projects .container-sm a h2 {
+    padding: 1vw 0;
+}

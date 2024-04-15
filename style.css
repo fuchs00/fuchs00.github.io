@@ -26,6 +26,15 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    background: #fff;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
 b {
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
@@ -81,55 +90,6 @@ img {
 
 .navbar .nav-menu ul li a:hover {
     color: var(--dark-blue);
-}
-
-/* About */
-.about {
-    background: #fff;
-    padding: 0;
-    margin-bottom: 15vh;
-}
-
-.about .container-sm {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.about .container-sm .logo-name img {
-    width: 100vw;
-    height: auto;
-}
-
-.about .about-me {
-    display: block;
-}
-
-.about .about-me .about-par {
-    padding: 10px 0;
-}
-
-.about .about-me .links {
-    display: block;
-}
-
-.about .about-me .links .download-links ul {
-    display: flex;
-}
-
-.about .about-me .links .download-links ul li a {
-    padding: 10px 2vw 10px 0;
-    display: block;
-    font-weight: 700;
-    transition: 0.5s;
-}
-
-.about .about-me .links .download-links ul li a:hover {
-    color: var(--dark-blue);
-}
-
-.about .about-me .links .icon-links {
-    padding: 20px 0;
 }
 
 /* Utility Classes */

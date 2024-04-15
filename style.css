@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-blue: #2374ac;
+    --light-blue: #78d1f2;
+    --accent-red: #f15f57;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    background: #fff;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    line-height: 1.5;
+    background: #fff;
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+b {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    background: #fff;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.highlight-word {
+    color: var(--dark-blue);
+    font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    padding: 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .container .logo-initials img {
+    width: 10vw;
+    height: auto;
+}
+
+.navbar .nav-menu ul {
+    display: flex;
+}
+
+.navbar .nav-menu ul li a {
+    padding: 5vw 2vw;
+    display: block;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.navbar .nav-menu ul li a:hover {
+    color: var(--dark-blue);
+}
+
+/* About */
+.about {
+    background: #fff;
+    padding: 0;
+    margin-bottom: 15vh;
+}
+
+.about .container-sm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .container-sm .logo-name img {
+    width: 100vw;
+    height: auto;
+}
+
+.about .about-me {
+    display: block;
+}
+
+.about .about-me .about-par {
+    padding: 10px 0;
+}
+
+.about .about-me .links {
+    display: block;
+}
+
+.about .about-me .links .download-links ul {
+    display: flex;
+}
+
+.about .about-me .links .download-links ul li a {
+    padding: 10px 2vw 10px 0;
+    display: block;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.about .about-me .links .download-links ul li a:hover {
+    color: var(--dark-blue);
+}
+
+.about .about-me .links .icon-links {
+    padding: 20px 0;
+}
+
+/* Utility Classes */
+.left-border {
+    width: 10vw;
+    height: 98%;
+    background: var(--light-blue);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 10vw;
+}
+
+.right-border {
+    width: 10vw;
+    height: 98%;
+    background: var(--light-blue);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 10vw;
+}
+
+.bottom-red {
+    width: 100%;
+    height: 10%;
+    background: var(--accent-red);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-white {
+    width: 80%;
+    height: 10%;
+    background: #fff;
+    position: fixed;
+    bottom: 5%;
+    left: 10%;
+    border-radius: 10vw;
+}
+
+.container {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0 10vw;
+}
+
+.container-sm {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 0 10vw;
+}

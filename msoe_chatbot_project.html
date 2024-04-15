@@ -51,11 +51,12 @@
             <!--Description-->
             <div class="project-description">
                 <div class="text-par">
-                    <b>I collaborated on a project to develop an AI chatbot prototype tailored for Milwaukee School of 
+                    <p>
+                        I collaborated on a project to develop an AI chatbot prototype tailored for Milwaukee School of 
                         Engineering (MSOE). The aim was to address the specific need of facilitating student access to 
                         the university’s health and support services. This project spanned over a semester in a group with 
                         one other person. My role as the team lead involved:
-                    </b>
+                    </p>
                 </div>
                 <div class="text-bullets">
                     <ul>
@@ -71,13 +72,15 @@
                     </ul>
                 </div>
                 <div class="text-par">
-                    Our tasks involved conceptualizing the user experience, designing the chatbot interface, and prototyping 
-                    its functionality. To achieve this, we made the choice to focus on the specific use case of helping students 
-                    connect to MSOE’s health and support services. These services include health care from a nurse practitioner, 
-                    mental health counseling, and academic support services. Utilizing skills in user research, persona 
-                    development, UX/UI design principles, conversation design, and prototyping tools such as Figma and Voiceflow 
-                    chatbot builder. The goal was to create an intuitive and user-friendly chatbot that seamlessly integrated 
-                    with MSOE's existing systems.
+                    <p>
+                        Our tasks involved conceptualizing the user experience, designing the chatbot interface, and prototyping 
+                        its functionality. To achieve this, we made the choice to focus on the specific use case of helping students 
+                        connect to MSOE’s health and support services. These services include health care from a nurse practitioner, 
+                        mental health counseling, and academic support services. Utilizing skills in user research, persona 
+                        development, UX/UI design principles, conversation design, and prototyping tools such as Figma and Voiceflow 
+                        chatbot builder. The goal was to create an intuitive and user-friendly chatbot that seamlessly integrated 
+                        with MSOE's existing systems.
+                    </p>
                 </div>
                 <div class="text-par">
                     List of tasks I was responsible for completing:
@@ -108,7 +111,9 @@
                     </ul>
                 </div>
                 <div class="text-par">
-                    The AI chatbot prototype resulted in several positive outcomes:
+                    <p>
+                        The AI chatbot prototype resulted in several positive outcomes:
+                    </p>
                 </div>
                 <div class="text-bullets">
                     <ul>
@@ -130,12 +135,77 @@
                     </ul>
                 </div>
                 <div class="text-par">
-                    Overall, the MSOE AI chatbot project provided valuable insights into the practical application of user experience principles 
-                    and methodologies in addressing real-world problems within educational institutions.
+                    <p>
+                        Overall, the MSOE AI chatbot project provided valuable insights into the practical application of user experience principles 
+                        and methodologies in addressing real-world problems within educational institutions.
+                    </p>
                 </div>
             </div>
-            <!--Images-->
+            <!--Image Lightbox-->
             <div class="project-images">
+
+                <!--Images used to open lightbox-->
+                <div class="image-row">
+                    <div class="image-column">
+                        <img src="images/chatbot/Chatbot User Journey.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </div>
+                    <div class="image-column">
+                        <img src="images/chatbot/Chatbot convo flow.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    </div>
+                    <div class="image-column">
+                        <img src="images/chatbot/Chatbot voiceflow prototype.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    </div>
+                    <div class="image-column">
+                        <img src="images/chatbot/Chatbot voiceflow conversation.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                </div>
+
+                <!--The lightbox-->
+                <div id="myModal" class="modal">
+                    <span class="close curser" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides">
+                            <div class="number-text">1 / 4</div>
+                            <img src="images/chatbot/Chatbot User Journey.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="number-text">2 / 4</div>
+                            <img src="images/chatbot/Chatbot convo flow.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="number-text">3 / 4</div>
+                            <img src="images/chatbot/Chatbot voiceflow prototype.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="number-text">4 / 4</div>
+                            <img src="images/chatbot/Chatbot voiceflow conversation.jpg" style="width:100%">
+                        </div>
+
+                        <!--Next/Previous controls-->
+                        <a class="prev" onclick="plusSlides(-1);">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1);">&#10095;</a>
+
+                        <!--Caption text-->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+
+                        <!--Thumbnail image controls-->
+                        <div class="column">
+                            <img src="images/chatbot/Chatbot User Journey.jpg" alt="Chatbot User Journey" class="demo" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img src="images/chatbot/Chatbot convo flow.jpg" alt="Figma Conversation Flow" class="demo" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img src="images/chatbot/Chatbot voiceflow prototype.jpg" alt="Voiceflow Prototype Flow" class="demo" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img src="images/chatbot/Chatbot voiceflow conversation.jpg" alt="Conversation with the chatbot" class="demo" onclick="currentSlide(4)">
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
         </div>

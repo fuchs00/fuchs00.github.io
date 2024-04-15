@@ -153,6 +153,7 @@ img.demo {
 
 img.hover-shadow {
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .hover-shadow:hover {

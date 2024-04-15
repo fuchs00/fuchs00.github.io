@@ -62,6 +62,8 @@ img {
 
 .text-bullets ul {
     list-style: inside;
+    padding-left: 22px;
+    text-indent: -22px;
 }
 
 .highlight-word {

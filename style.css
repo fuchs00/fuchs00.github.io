@@ -25,10 +25,11 @@ body {
 footer {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -50px;
   left: 0;
-  background-color: var(--fuchs_maroon);
-  height: 50px;
+  background-image: url(images/Paint\ Drip\ Footer.png);
+  background-repeat: repeat;
+  height: 300px;
   width: 100%;
 }
 

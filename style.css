@@ -18,15 +18,24 @@
 
 /* Content Classes */
 body {
-  overflow: hidden;
   background: var(--fuchs_white);
 }
 
+.page-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
 footer {
-  position: absolute;
-  right: 0;
-  bottom: -50px;
-  left: 0;
   background-image: url(images/Paint\ Drip\ Footer.png);
   background-repeat: repeat;
   height: 300px;

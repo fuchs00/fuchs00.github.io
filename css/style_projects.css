@@ -1,0 +1,56 @@
+/* Projects */
+.projects {
+  padding: 0;
+}
+
+.projects .container-sm {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: center;
+}
+
+.projects .container-sm a {
+  transition: 0.5s;
+}
+
+.projects .container-sm a:hover {
+  opacity: 0.85;
+}
+
+.projects .container-sm a img {
+  width: 20vw;
+  height: auto;
+  padding: 0 1vw;
+}
+
+.projects .container-sm a h2 {
+  padding: 1vw 0;
+}
+
+/* Case Study Classes */
+.project-walkthrough .container-sm ul {
+  display: inline-flex;
+}
+
+.project-walkthrough .container-sm ul li {
+  width: 50%;
+}
+
+.project-walkthrough .project-description .text-bullets ul {
+  display: block;
+}
+
+.project-walkthrough .project-description .text-bullets ul li {
+  list-style: inside;
+  padding-left: 22px;
+  text-indent: -22px;
+  padding: 0;
+}
+
+.project-images img {
+  width: 20vw;
+  height: auto;
+  padding-left: 5vw;
+  padding-bottom: 5vh;
+}/*# sourceMappingURL=style_projects.css.map */

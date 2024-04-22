@@ -17,20 +17,18 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" 
     />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="css/style_index.css">
 </head>
 <body>
-    
+
     <!--Navbar-->
     <nav class="navbar">
         <div class="container">
-            <!--Brand Navbar Logo-->
-            <div class="logo-initials">
+            <div class="logo-sm">
                 <a href="index.html">
-                    <img src="images/Name Logo Initials.png" alt="Initials Logo">
+                    <img src="images/Name Logo Initials.png" alt="Fuchs Small Logo">
                 </a>
             </div>
-            <!--Navbar Menu-->
             <div class="nav-menu">
                 <ul>
                     <li>
@@ -44,77 +42,113 @@
         </div>
     </nav>
 
-    <!--About-->
-    <div class="about">
-        <div class="container-sm">
-            <!--Brand About Logo-->
-            <div class="logo-name">
-                <img src="images/Name Logo.png" alt="Name Logo">
-            </div>
+    <!--Page Layout-->
+    <div class="page-layout">
+        <div class="content">
             <!--About Me-->
-            <div class="about-me">
-                <h1>About Me</h1>
-                <div class="text-par">
-                    <p>
-                        I’m an <span class="highlight-word">eager and resourceful UX developer</span>, passionate about 
-                        <span class="highlight-word">understanding user behavior</span> and crafting 
-                        <span class="highlight-word">intuitive digital experiences</span>. Armed with strong 
-                        <span class="highlight-word">project experience</span> and a solid set of 
-                        <span class="highlight-word">technical skills</span>, I’m on a mission to untangle the mysteries of 
-                        <span class="highlight-word">user requirements and preferences</span>.
-                    </p>
-                </div>
-                <div class="text-par">
-                    <p>
-                        My goal is to leverage technology and design principles, creating 
-                        <span class="highlight-word">meaningful solutions</span> that enhance user satisfaction and drive 
-                        business objectives. Right now, I’m on the lookout for an immersive internship where I can apply and 
-                        further develop my UX skills in a <span class="highlight-word">dynamic and forward-thinking environment</span>.
-                    </p>
-                </div>
-                <!--Links-->
-                <div class="links">
-                    <!--Download Links-->
-                    <div class="download-links">
-                        <ul>
-                            <li>
-                                <a href="download/Fuchs_Resume.pdf" download>
-                                    <i class="fa-solid fa-download"></i> Download Resume PDF
-                                </a>
-                            </li>
-                            <li>
-                                <a href="download/Fuchs_Plain_Resume.txt" download>
-                                    <i class="fa-solid fa-download"></i> Download Resume Plain Text
-                                </a>
-                            </li>
-                        </ul>
+            <div class="about">
+                <div class="container-sm">
+                    <!--Brand About Logo-->
+                    <div class="logo-lg">
+                        <img src="images/Name Logo v2.png" alt="Fuchs Large Logo">
                     </div>
-                    <!--Icon Links-->
-                    <div class="icon-links">
-                        <ul>
-                            <li>
-                                <a href="https://www.linkedin.com/in/fuchsalex/" target="_blank">
-                                    <i class="fa-brands fa-linkedin fa-xl"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/fuchs00" target="_blank">
-                                    <i class="fa-brands fa-square-github fa-xl"></i>
-                                </a>
-                            </li>
-                        </ul>
+                    <!--About Me-->
+                    <div class="about-me">
+                        <h1>About Me</h1>
+                        <div class="text-par">
+                            <p>
+                                I’m an <span class="highlight-word">eager and resourceful UX developer</span>, passionate about 
+                                <span class="highlight-word">understanding user behavior</span> and crafting 
+                                <span class="highlight-word">intuitive digital experiences</span>. Armed with strong 
+                                <span class="highlight-word">project experience</span> and a solid set of 
+                                <span class="highlight-word">technical skills</span>, I’m on a mission to untangle the mysteries of 
+                                <span class="highlight-word">user requirements and preferences</span>.
+                            </p>
+                        </div>
+                        <div class="text-par">
+                            <p>
+                                My goal is to leverage technology and design principles, creating 
+                                <span class="highlight-word">meaningful solutions</span> that enhance user satisfaction and drive 
+                                business objectives. Right now, I’m on the lookout for an immersive internship where I can apply and 
+                                further develop my UX skills in a <span class="highlight-word">dynamic and forward-thinking environment</span>.
+                            </p>
+                        </div>
+                        <!--Links-->
+                        <div class="links">
+                            <!--Download Links-->
+                            <div class="download-links">
+                                <ul>
+                                    <li>
+                                        <a href="downloads/Fuchs_Resume.pdf" download>
+                                            <i class="fa-solid fa-download"></i> Download Resume PDF
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="downloads/Fuchs_Plain_Resume.txt" download>
+                                            <i class="fa-solid fa-download"></i> Download Resume Plain Text
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Icon Links-->
+                            <div class="icon-links">
+                                <ul>
+                                    <li>
+                                        <a class="linkedin-icon" href="https://www.linkedin.com/in/fuchsalex/" target="_blank">
+                                            <i class="fa-brands fa-linkedin fa-xl"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="github-icon" href="https://github.com/fuchs00" target="_blank">
+                                            <i class="fa-brands fa-square-github fa-xl"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="footer">
+            <!--Footer-->
+            <footer ></footer>
+        </div>
     </div>
     
-    <!--Page Borders-->
-    <div class="bottom-red"></div>
-    <div class="bottom-white"></div>
-    <div class="left-border"></div>
-    <div class="right-border"></div>
+    <!--Background Effect-->
+    <div class="paint-drip">
+        <div>
+            <img src="images/Paint Drip.png">
+        </div>
+        <div>
+            <img src="images/Paint Drip.png">
+        </div>
+        <div>
+            <img src="images/Paint Drip.png">
+        </div>
+        <div>
+            <img src="images/Paint Drip.png">
+        </div>
+        <div>
+            <img src="images/Paint Drip.png">
+        </div>
+        <div>
+            <img src="images/Paint Drip.png">
+        </div>
+        <div>
+            <img src="images/Paint Drip.png">
+        </div>
+        <div>
+            <img src="images/Paint Drip.png">
+        </div>
+        <div>
+            <img src="images/Paint Drip.png">
+        </div>
+    </div>
 
-    <script src="js/main.js"></script>
+    
+    
+
 </body>
 </html>

@@ -1,0 +1,34 @@
+/* About */
+.about {
+  padding: 0;
+}
+
+.about .container-sm {
+  display: flex;
+}
+
+.about .container-sm .about-me {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about .container-sm .about-me ul {
+  display: flex;
+}
+
+.about .container-sm .about-me ul li {
+  display: block;
+  justify-content: space-between;
+}
+
+.about .summary {
+  width: 40vw;
+}
+
+.about .hobbies {
+  padding-left: 50px;
+}
+
+.about .my-brand {
+  padding-top: 50px;
+}/*# sourceMappingURL=style_about.css.map */

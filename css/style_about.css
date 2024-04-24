@@ -22,7 +22,7 @@
 .about-information .hobbies {
   position: relative;
   top: 50px;
-  padding-left: 75px;
+  padding-left: 5vw;
 }
 
 .about-information .about-section1 ul {
@@ -33,7 +33,17 @@
   width: 40vw;
 }
 
+.about-information .about-section2 ul {
+  display: flex;
+}
+
 .about-information .my-brand .text-par {
+  width: 40vw;
   position: relative;
   top: -75px;
+}
+
+.about-information .brand-paint img {
+  padding-top: 50px;
+  padding-left: 3vw;
 }/*# sourceMappingURL=style_about.css.map */

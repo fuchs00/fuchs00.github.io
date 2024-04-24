@@ -1,34 +1,39 @@
 /* About */
-.about {
+.about-information {
     padding: 0;
 }
 
-.about .container-sm {
+.about-information .header-paint {
+    width: 150px;
+    position: relative;
+    left: -65px;
+}
+
+.about-information h1 {
+    position: relative;
+    top: -75px;
+}
+
+.about-information .about-me .text-par {
+    position: relative;
+    top: -75px;
+}
+
+.about-information .hobbies {
+    position: relative;
+    top: 50px;
+    padding-left: 75px;
+}
+
+.about-information .about-section1 ul {
     display: flex;
 }
 
-.about .container-sm .about-me {
-    justify-content: space-between;
-    align-items: center;
-}
-
-.about .container-sm .about-me ul {
-    display: flex;
-}
-
-.about .container-sm .about-me ul li {
-    display: block;
-    justify-content: space-between;
-}
-
-.about .summary {
+.about-information .about-section1 .summary {
     width: 40vw;
 }
 
-.about .hobbies {
-    padding-left: 50px;
-}
-
-.about .my-brand {
-    padding-top: 50px;
+.about-information .my-brand .text-par {
+    position: relative;
+    top: -75px;
 }

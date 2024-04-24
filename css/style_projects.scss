@@ -22,21 +22,34 @@
 .projects .container-sm a img {
     width: 20vw;
     height: auto;
-    padding: 0 1vw;
+    padding: 0 2vw;
 }
 
 .projects .container-sm a h2 {
-    padding: 1vw 0;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.projects .container-sm .text-par p {
+    font-size: 22px;
+    font-weight: 500;
 }
 
 /* Case Study Classes */
-.project-walkthrough .container-sm ul {
-    display: inline-flex;
-    
+.project-walkthrough .project-description .header-paint {
+    width: 150px;
+    position: relative;
+    left: -65px;
 }
 
-.project-walkthrough .container-sm ul li {
-    width: 50%;
+.project-walkthrough .project-description .text-par {
+    position: relative;
+    top: -85px;
+}
+
+.project-walkthrough .project-description .text-bullets {
+    position: relative;
+    top: -85px;
 }
 
 .project-walkthrough .project-description .text-bullets ul {
@@ -50,9 +63,141 @@
     padding: 0;
 }
 
-.project-images img {
-    width: 20vw;
-    height: auto;
-    padding-left: 5vw;
-    padding-bottom: 5vh;
+/* Chatbot Case Study */
+.project-walkthrough .chatbot-project-section1 ul {
+    display: flex;
+    align-items: center;
+}
+
+.project-walkthrough .chatbot-project-section1 .project-text {
+    width: 40vw;
+    padding-right: 50px;
+}
+
+.project-walkthrough .chatbot-project-section1 .project-image img {
+    height: 350px;
+}
+
+.project-walkthrough .chatbot-project-section3 ul {
+    display: flex;
+    align-items: center;
+}
+
+.project-walkthrough .chatbot-project-section3 .project-text {
+    width: 40vw;
+    padding-right: 50px;
+}
+
+.project-walkthrough .chatbot-project-section3 .project-image img {
+    height: 400px;
+    box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+}
+
+.project-walkthrough .chatbot-project-section4 ul {
+    display: flex;
+    align-items: center;
+}
+
+.project-walkthrough .chatbot-project-section4 .project-text {
+    width: 40vw;
+    padding-right: 50px;
+}
+
+.project-walkthrough .chatbot-project-section4 .project-image img {
+    height: 400px;
+    box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+}
+
+/* Pokemon Case Study */
+.project-walkthrough .pokemon-project-section2 ul {
+    display: flex;
+    align-items: center;
+}
+
+.project-walkthrough .pokemon-project-section2 .project-text {
+    width: 40vw;
+    padding-right: 50px;
+}
+
+.project-walkthrough .pokemon-project-section2 .project-image img {
+    width: 500px;
+    box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+    position: relative;
+    top: -50px;
+}
+
+.project-walkthrough .pokemon-project-section3 ul {
+    display: flex;
+    align-items: center;
+}
+
+.project-walkthrough .pokemon-project-section3 .project-text {
+    width: 40vw;
+    padding-right: 50px;
+}
+
+.project-walkthrough .pokemon-project-section3 .project-image img {
+    width: 600px;
+    box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+}
+
+.project-walkthrough .pokemon-project-section4 ul {
+    display: flex;
+    align-items: center;
+}
+
+.project-walkthrough .pokemon-project-section4 .project-text {
+    width: 40vw;
+    padding-right: 50px;
+}
+
+.project-walkthrough .pokemon-project-section4 .project-image img {
+    width: 700px;
+    box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+}
+
+/* Children's Case Study */
+.project-walkthrough .childrens-project-section1 ul {
+    display: flex;
+    align-items: center;
+}
+
+.project-walkthrough .childrens-project-section1 .project-text {
+    width: 40vw;
+    padding-right: 50px;
+}
+
+.project-walkthrough .childrens-project-section1 .project-image img {
+    width: 400px;
+    box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+}
+
+.project-walkthrough .childrens-project-section2 ul {
+    display: flex;
+    align-items: center;
+}
+
+.project-walkthrough .childrens-project-section2 .project-text {
+    width: 40vw;
+    padding-right: 50px;
+}
+
+.project-walkthrough .childrens-project-section2 .project-image img {
+    width: 400px;
+    box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+}
+
+.project-walkthrough .childrens-project-section3 ul {
+    display: flex;
+    align-items: center;
+}
+
+.project-walkthrough .childrens-project-section3 .project-text {
+    width: 40vw;
+    padding-right: 50px;
+}
+
+.project-walkthrough .childrens-project-section3 .project-image img {
+    height: 400px;
+    box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
 }

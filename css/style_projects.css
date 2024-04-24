@@ -62,46 +62,95 @@
   padding: 0;
 }
 
-.project-walkthrough .project-section1 ul {
+/* Chatbot Case Study */
+.project-walkthrough .chatbot-project-section1 ul {
   display: flex;
   align-items: center;
 }
 
-.project-walkthrough .project-section1 .project-text {
+.project-walkthrough .chatbot-project-section1 .project-text {
   width: 40vw;
+  padding-right: 50px;
 }
 
-.project-walkthrough .project-section1 .project-image img {
+.project-walkthrough .chatbot-project-section1 .project-image img {
   height: 350px;
-  padding-left: 50px;
 }
 
-.project-walkthrough .project-section3 ul {
+.project-walkthrough .chatbot-project-section3 ul {
   display: flex;
   align-items: center;
 }
 
-.project-walkthrough .project-section3 .project-text {
+.project-walkthrough .chatbot-project-section3 .project-text {
   width: 40vw;
+  padding-right: 50px;
 }
 
-.project-walkthrough .project-section3 .project-image img {
+.project-walkthrough .chatbot-project-section3 .project-image img {
   height: 400px;
-  padding-left: 50px;
   box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
 }
 
-.project-walkthrough .project-section4 ul {
+.project-walkthrough .chatbot-project-section4 ul {
   display: flex;
   align-items: center;
 }
 
-.project-walkthrough .project-section4 .project-text {
+.project-walkthrough .chatbot-project-section4 .project-text {
   width: 40vw;
+  padding-right: 50px;
 }
 
-.project-walkthrough .project-section4 .project-image img {
+.project-walkthrough .chatbot-project-section4 .project-image img {
   height: 400px;
-  padding-left: 50px;
+  box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+}
+
+/* Pokemon Case Study */
+.project-walkthrough .pokemon-project-section2 ul {
+  display: flex;
+  align-items: center;
+}
+
+.project-walkthrough .pokemon-project-section2 .project-text {
+  width: 40vw;
+  padding-right: 50px;
+}
+
+.project-walkthrough .pokemon-project-section2 .project-image img {
+  width: 500px;
+  box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+  position: relative;
+  top: -50px;
+}
+
+.project-walkthrough .pokemon-project-section3 ul {
+  display: flex;
+  align-items: center;
+}
+
+.project-walkthrough .pokemon-project-section3 .project-text {
+  width: 40vw;
+  padding-right: 50px;
+}
+
+.project-walkthrough .pokemon-project-section3 .project-image img {
+  width: 600px;
+  box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
+}
+
+.project-walkthrough .pokemon-project-section4 ul {
+  display: flex;
+  align-items: center;
+}
+
+.project-walkthrough .pokemon-project-section4 .project-text {
+  width: 40vw;
+  padding-right: 50px;
+}
+
+.project-walkthrough .pokemon-project-section4 .project-image img {
+  width: 700px;
   box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.5);
 }/*# sourceMappingURL=style_projects.css.map */

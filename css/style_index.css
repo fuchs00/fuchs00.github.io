@@ -18,41 +18,4 @@
 .about .about-me {
   display: block;
   width: 45vw;
-}
-
-.about .about-me .links {
-  display: block;
-}
-
-.about .about-me .links .download-links ul {
-  display: flex;
-}
-
-.about .about-me .links .download-links ul li a {
-  padding: 10px 2vw 10px 0;
-  display: block;
-  font-weight: 700;
-  transition: 0.5s;
-}
-
-.about .about-me .links .download-links ul li a:hover {
-  color: var(--fuchs_teal);
-}
-
-.about .about-me .links .icon-links ul {
-  display: flex;
-}
-
-.about .about-me .links .icon-links ul li a {
-  padding: 20px 2vw 20px 0;
-  display: block;
-  transition: 0.5s;
-}
-
-.icon-links .linkedin-icon:hover {
-  color: var(--linkedin_blue);
-}
-
-.icon-links .github-icon:hover {
-  color: var(--github_purple);
 }/*# sourceMappingURL=style_index.css.map */

@@ -31,17 +31,6 @@ body {
   flex: 1 0 auto;
 }
 
-.footer {
-  flex-shrink: 0;
-}
-
-footer {
-  background-image: url(images/assets/Paint\ Drip\ Footer.png);
-  background-repeat: repeat;
-  height: 300px;
-  width: 100%;
-}
-
 h1 {
   font-size: 28px;
   font-weight: 900;
@@ -66,10 +55,6 @@ a {
 
 ul {
   list-style: none;
-}
-
-img {
-  max-width: 100%;
 }
 
 .text-par {
@@ -213,8 +198,7 @@ img {
 }
 
 .navbar .container .logo-sm img {
-  width: 10vw;
-  height: auto;
+  height: 10vh;
 }
 
 .navbar .nav-menu ul {
@@ -230,6 +214,75 @@ img {
 
 .navbar .nav-menu ul li a:hover {
   color: var(--fuchs_teal);
+}
+
+/* Footer */
+footer {
+  flex-shrink: 0;
+  background-color: var(--fuchs_maroon);
+  height: 175px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer-content .footer-logo img {
+  height: 100px;
+  padding-right: 10px;
+}
+
+.footer-links .icon-links i {
+  color: var(--fuchs_white);
+  transition: 0.5s;
+}
+
+.footer-links .icon-links .linkedin-icon {
+  padding-right: 25px;
+}
+
+.footer-links .icon-links .linkedin-icon i:hover {
+  opacity: 50%;
+}
+
+.footer-links .icon-links .github-icon i:hover {
+  opacity: 50%;
+}
+
+.footer-links .resume-links {
+  padding-top: 10px;
+}
+
+.footer-links .resume-links a {
+  display: flex;
+  color: var(--fuchs_white);
+  align-content: center;
+  transition: 0.5s;
+}
+
+.footer-links .resume-links a:hover {
+  opacity: 50%;
+}
+
+.footer-links .resume-links a i {
+  padding-right: 10px;
+}
+
+.footer-links .resume-links a p {
+  color: var(--fuchs_white);
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* Utility Classes */

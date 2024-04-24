@@ -21,11 +21,17 @@
 .projects .container-sm a img {
   width: 20vw;
   height: auto;
-  padding: 0 1vw;
+  padding: 0 2vw;
 }
 
 .projects .container-sm a h2 {
-  padding: 1vw 0;
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
+.projects .container-sm .text-par p {
+  font-size: 22px;
+  font-weight: 500;
 }
 
 /* Case Study Classes */

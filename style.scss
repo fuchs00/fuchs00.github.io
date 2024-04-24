@@ -73,36 +73,7 @@ ul {
     font-weight: 600;
 }
 
-/* Projects */
-.projects {
-    padding-top: 75px;
-}
 
-.projects .container-sm .recent-projects {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.projects .container-sm a {
-    transition: 0.5s;
-}
-
-.projects .container-sm a:hover {
-    opacity: 0.85;
-}
-
-.projects .container-sm a img {
-    width: 20vw;
-    height: auto;
-    padding: 0 1vw;
-}
-
-.projects .container-sm a h2 {
-    padding: 1vw 0;
-}
 
 /* Background Effect Classes */
 .paint-drip {
@@ -174,7 +145,7 @@ ul {
         opacity: .2;
     }
     100% {
-        top: 100%;
+        top: 30%;
         opacity: 0;
     }
 }

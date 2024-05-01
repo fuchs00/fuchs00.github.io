@@ -192,7 +192,9 @@ ul {
 footer {
   flex-shrink: 0;
   background-color: var(--fuchs_maroon);
-  height: 175px;
+  background-image: url(images/assets/Paint\ Spray\ Footer.png);
+  background-repeat: repeat;
+  height: 300px;
   width: 100%;
   margin-top: 100px;
 }

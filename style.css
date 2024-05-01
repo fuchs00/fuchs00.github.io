@@ -164,6 +164,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
 }
 
 .navbar .container .logo-sm img {
@@ -172,16 +174,17 @@ ul {
 
 .navbar .nav-menu ul {
   display: flex;
+  height: 10vh;
 }
 
-.navbar .nav-menu ul li a {
-  padding: 5vw 2vw;
+.navbar .nav-menu a {
+  padding: 2vh 2vw;
   display: block;
   font-weight: 700;
   transition: 0.5s;
 }
 
-.navbar .nav-menu ul li a:hover {
+.navbar .nav-menu a:hover {
   color: var(--fuchs_teal);
 }
 

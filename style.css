@@ -104,7 +104,7 @@ ul {
 
 .paint-drip div:nth-child(2) {
   left: 20%;
-  animation-delay: -2.5s;
+  animation-delay: -9s;
 }
 
 .paint-drip div:nth-child(3) {
@@ -114,7 +114,7 @@ ul {
 
 .paint-drip div:nth-child(4) {
   left: 40%;
-  animation-delay: -4.5s;
+  animation-delay: -7s;
 }
 
 .paint-drip div:nth-child(5) {
@@ -129,7 +129,7 @@ ul {
 
 .paint-drip div:nth-child(7) {
   left: 70%;
-  animation-delay: -7s;
+  animation-delay: -4.5s;
 }
 
 .paint-drip div:nth-child(8) {
@@ -139,7 +139,7 @@ ul {
 
 .paint-drip div:nth-child(9) {
   left: 90%;
-  animation-delay: -9s;
+  animation-delay: -2.9s;
 }
 
 @keyframes drip {
@@ -151,7 +151,7 @@ ul {
     opacity: 0.2;
   }
   100% {
-    top: 30%;
+    top: 10%;
     opacity: 0;
   }
 }
